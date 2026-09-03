@@ -1,0 +1,60 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.so
+
+# Virtual environments
+
+venv/
+.venv/
+env/
+
+# Environment variables
+
+.env
+.env.*
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# macOS
+
+.DS_Store
+
+# IDE
+
+.vscode/
+.idea/
+
+# Large datasets
+
+datasets/raw/*
+!datasets/raw/.gitkeep
+
+datasets/processed/*
+!datasets/processed/.gitkeep
+
+datasets/telemetry/*
+!datasets/telemetry/.gitkeep
+
+# Generated outputs
+
+outputs/*
+!outputs/.gitkeep
+
+# Logs
+
+*.log
+
+# Model checkpoints
+
+*.pth
+*.pt
+*.ckpt
+
+# Temporary files
+
+tmp/
+temp/
